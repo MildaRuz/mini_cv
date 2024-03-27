@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-w {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+
+.first-section {
+  width: 45%;
+  color: bisque;
+  background-color: rgb(11, 11, 11);
+}
+
+.second-section {
+  width: 65%;
+  background-color: rgb(247, 237, 225);
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
