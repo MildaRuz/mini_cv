@@ -65,7 +65,7 @@ export default function AboutMePage() {
                 <div>{lang}</div>
               </div>
             ))}
-            <h2 className="text-xl mt-16 uppercase underline">interests</h2>
+            <h2 className="text-xl mt-16 uppercase underline underline-offset-4">interests</h2>
             {USER_DATA.interests.map((hobbies) => (
               <div className="my-4" key={USER_DATA.interests.index}>
                 <div>{hobbies}</div>
@@ -75,20 +75,28 @@ export default function AboutMePage() {
         </div>
       </div>
       <div className="second-section py-16 px-28">
-        <h2 className="text-xl mt-16 uppercase underline underline-offset-4">education</h2>
+        <h2 className="text-xl mt-16 uppercase font-weight-500 underline underline-offset-4">education</h2>
 
         {USER_DATA.education.map((ed) => (
           <div key={USER_DATA.education.index}>
-            <div className="text-lg uppercase mt-10">
+            <div className="text-lg uppercase mt-10 font-weight-600">{ed.title}</div>
+            <div className="text-base mt-2">
               <em>
                 {ed.company} | <span className="normal-case">{ed.year}</span>{' '}
               </em>
             </div>
-            <div className="mt-10 leading-7">{ed.description}</div>
+            <div className="mt-6 leading-7">{ed.description}</div>
+            {ed.activitiesAndSoc ? (
+              <div className="mt-2">
+                <em>Activities and societies:</em> {ed.activitiesAndSoc}
+              </div>
+            ) : (
+              ''
+            )}
           </div>
         ))}
 
-        <h2 className="text-xl mt-16 uppercase underline underline-offset-4">working experience</h2>
+        <h2 className="text-xl mt-16 uppercase font-weight-500 underline underline-offset-4">working experience</h2>
         {USER_DATA.workingExperience.map((workEx) => (
           <div key={USER_DATA.workingExperience.index}>
             <div className="text-lg uppercase mt-10">

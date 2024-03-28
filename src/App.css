@@ -28,3 +28,7 @@ img {
   height: 200px;
   border-radius: 100%;
 }
+
+.font-weight-500 {
+  font-weight: 500;
+}
