@@ -99,7 +99,8 @@ export default function AboutMePage() {
         <h2 className="text-xl mt-16 uppercase font-weight-500 underline underline-offset-4">working experience</h2>
         {USER_DATA.workingExperience.map((workEx) => (
           <div key={USER_DATA.workingExperience.index}>
-            <div className="text-lg uppercase mt-10">
+            <div className="text-lg uppercase mt-10 font-weight-600">{workEx.title}</div>
+            <div className="text-base mt-2">
               <em>
                 {workEx.company} | <span className="normal-case">{workEx.year}</span>
               </em>
