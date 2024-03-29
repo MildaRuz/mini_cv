@@ -105,7 +105,8 @@ export default function AboutMePage() {
                 {workEx.company} | <span className="normal-case">{workEx.year}</span>
               </em>
             </div>
-            <div className="mt-10 leading-7">{workEx.description}</div>
+
+            <div className="mt-6 leading-7">{workEx.description}</div>
           </div>
         ))}
       </div>

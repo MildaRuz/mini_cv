@@ -42,14 +42,15 @@ export const USER_DATA = {
       title: 'Technologist, in Printing Department',
       company: 'AB Audimas Supply',
       year: 'Feb 2014 - Feb 2023',
-      description: '',
+      description:
+        'Development and quality control of new printings, documentation writing. Supervision in heat transfers, quality control in production. Management of a team of 10-15 people. Working with Dynamics NAV system.',
     },
     {
       title: 'Technology Assistant, in Printing Department',
       company: 'AB Audimas',
       year: 'Dec 2011 - Feb 2014',
       description:
-        'Development and quality control of new printings, Supervision in digital printing, heat transfers, quality control in production, Management of a team of 10-15 people',
+        'Supervision in digital printing, heat transfers, quality control in production. Preparation and organization of work. Management of a team of 4-10 people.',
     },
   ],
 };
