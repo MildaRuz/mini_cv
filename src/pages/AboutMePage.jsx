@@ -4,7 +4,7 @@ import { USER_DATA } from '../data/userData';
 
 export default function AboutMePage() {
   return (
-    <div className="container-w mx-auto flex flex-row">
+    <div className="container-w mx-auto flex flex-row container-mob">
       <div className="first-section py-16">
         <div>
           <img src={USER_DATA.img} className="mx-auto" />
