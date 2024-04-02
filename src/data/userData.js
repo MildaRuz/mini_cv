@@ -15,6 +15,13 @@ export const USER_DATA = {
   interests: ['reading', 'walking', 'picking mushrooms', 'jewellery making', 'fishing'],
   education: [
     {
+      title: 'Quality Assurance student',
+      company: 'Baltic Institute of Technology',
+      year: 'Mar 2024 - Jun 2024',
+      description:
+        'Now I am studying software testing. I will learn manual and automatic testing. I am familiar with Jira enviroment already.',
+    },
+    {
       title: 'Junior FrontEnd Developer',
       company: 'Baltic Institute of Technology',
       year: 'Sep 2023 - Feb 2024',
@@ -43,7 +50,7 @@ export const USER_DATA = {
       company: 'AB Audimas Supply',
       year: 'Feb 2014 - Feb 2023',
       description:
-        'Development and quality control of new printings, documentation writing. Supervision in heat transfers, quality control in production. Management of a team of 10-15 people. Working with Dynamics NAV system.',
+        'Development and quality control of new printings, documentation writing. Supervision in heat transfers, quality control in production. Fast problem solving skills. Management of a team of 10-15 people. Working with Dynamics NAV system.',
     },
     {
       title: 'Technology Assistant, in Printing Department',
