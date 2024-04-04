@@ -28,6 +28,11 @@ img {
   height: 200px;
   border-radius: 100%;
 }
+.img-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 0%;
+}
 
 .font-weight-500 {
   font-weight: 500;

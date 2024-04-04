@@ -59,6 +59,13 @@ export default function AboutMePage() {
                 <div>{skill}</div>
               </div>
             ))}
+            <h2 className="text-xl mt-16 uppercase underline underline-offset-4"> some Basics of:</h2>
+            {USER_DATA.basics.map((skill) => (
+              <div className="my-4" key={USER_DATA.basics.index}>
+                <div>{skill}</div>
+              </div>
+            ))}
+
             <h2 className="text-xl mt-16 my-4 uppercase underline underline-offset-4">languages</h2>
             {USER_DATA.languages.map((lang) => (
               <div className="my-4" key={USER_DATA.languages.index}>
@@ -68,7 +75,10 @@ export default function AboutMePage() {
             <h2 className="text-xl mt-16 uppercase underline underline-offset-4">interests</h2>
             {USER_DATA.interests.map((hobbies) => (
               <div className="my-4" key={USER_DATA.interests.index}>
-                <div>{hobbies}</div>
+                <div>
+                  {hobbies}
+                  <img className="img-icon" src={USER_DATA.icons[3]} />
+                </div>
               </div>
             ))}
           </div>

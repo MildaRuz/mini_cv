@@ -1,3 +1,5 @@
+import jm1 from '../assets/1.jpg';
+import mp1 from '../assets/mp1.jpg';
 import profileImg from '../assets/prof.jpg';
 
 export const USER_DATA = {
@@ -11,8 +13,10 @@ export const USER_DATA = {
     gitHub: 'https://github.com/MildaRuz',
   },
   skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Tailwind'],
+  basics: ['MySQL', 'Bootstrap', 'Jira'],
   languages: ['Lithuanian - native', 'English'],
   interests: ['reading', 'walking', 'picking mushrooms', 'jewellery making', 'fishing'],
+  icons: [mp1, mp1, mp1, jm1, mp1],
   education: [
     {
       title: 'Quality Assurance student',
