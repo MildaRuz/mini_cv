@@ -5,7 +5,7 @@ import { USER_DATA } from '../data/userData';
 export default function AboutMePage() {
   return (
     <div className="container-w mx-auto flex flex-row container-mob shadow-lg shadow-stone-600/60">
-      <div className="first-section py-16">
+      <div className="first-section py-20">
         <div>
           <img src={USER_DATA.img} className="mx-auto" />
           <h1 className="text-2xl mb-1 mt-8 uppercase text-center tracking-wide">
@@ -77,7 +77,7 @@ export default function AboutMePage() {
               <div className="my-4" key={USER_DATA.interests.index}>
                 <div>
                   {hobbies}
-                  <img className="img-icon" src={USER_DATA.icons[3]} />
+                  {/* <img className="img-icon" src={USER_DATA.icons[3]} /> */}
                 </div>
               </div>
             ))}

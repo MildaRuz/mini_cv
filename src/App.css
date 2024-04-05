@@ -43,6 +43,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0;
   }
   .first-section,
   .second-section {

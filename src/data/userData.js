@@ -15,7 +15,7 @@ export const USER_DATA = {
   skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Tailwind'],
   basics: ['MySQL', 'Bootstrap', 'Jira'],
   languages: ['Lithuanian - native', 'English'],
-  interests: ['reading', 'walking', 'picking mushrooms', 'jewellery making', 'fishing'],
+  interests: ['time with family', 'walking', 'picking mushrooms', 'reading', 'jewellery making', 'fishing'],
   icons: [mp1, mp1, mp1, jm1, mp1],
   education: [
     {
@@ -23,7 +23,7 @@ export const USER_DATA = {
       company: 'Baltic Institute of Technology',
       year: 'Mar 2024 - Jun 2024',
       description:
-        'Now I am studying software testing. I will learn manual and automatic testing. I am familiar with Jira enviroment already.',
+        'Now I am studying software testing. I will learn manual and automatic testing. I am familiar with Jira enviroment, have knowledge of testing types already.',
     },
     {
       title: 'Junior FrontEnd Developer',
