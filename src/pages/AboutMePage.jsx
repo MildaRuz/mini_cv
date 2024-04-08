@@ -107,7 +107,12 @@ export default function AboutMePage() {
             )}
             {ed.diploma ? (
               <p className="flex flex-row gap-2 items-center">
-                You can rewiev my diploma here <img className="diploma-QR" src={ed.diploma} />
+                You can review my diploma{' '}
+                <a href="https://www.dakpr.smm.lt/aikos2-dakpr/downloadDocument?oid=b0f144e0dd2e11eeb8e5dd9efe063b4b">
+                  <strong>here </strong>
+                </a>{' '}
+                <span className="mobile-none">or scan QR </span>
+                <img className="diploma-QR mobile-none" src={ed.diploma} />
               </p>
             ) : (
               ''

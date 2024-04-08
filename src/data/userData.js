@@ -37,14 +37,14 @@ export const USER_DATA = {
       year: '2009 - 2011',
       description:
         'Team work, experience in organizing events, textiles. Work on two projects, and have a public presentation.',
-      activitiesAndSoc: 'Students Union, Erasmus program (studies in ENSAIT, France)',
+      activitiesAndSoc: 'Students Union, Erasmus program (studies in ENSAIT, France).',
     },
     {
       title: "Bachelor's degree, Textile Engineering",
       company: 'Kaunas University of Technology',
       year: '2005 - 2009',
       description: 'Textiles, team work, experience in organizing events.',
-      activitiesAndSoc: 'Students Union',
+      activitiesAndSoc: 'Students Union.',
     },
   ],
   workingExperience: [
