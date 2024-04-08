@@ -1,5 +1,4 @@
-import jm1 from '../assets/1.jpg';
-import mp1 from '../assets/mp1.jpg';
+import diploma from '../assets/diploma.png';
 import profileImg from '../assets/prof.jpg';
 
 export const USER_DATA = {
@@ -16,7 +15,6 @@ export const USER_DATA = {
   basics: ['MySQL', 'Bootstrap', 'Jira'],
   languages: ['Lithuanian - native', 'English'],
   interests: ['time with family', 'picking mushrooms', 'walking', 'reading', 'jewellery making', 'fishing'],
-  icons: [mp1, mp1, mp1, jm1, mp1],
   education: [
     {
       title: 'Quality Assurance student',
@@ -31,6 +29,7 @@ export const USER_DATA = {
       year: 'Sep 2023 - Feb 2024',
       description:
         'Almost 6 months intensive self-sufficient learning and working in small teams. Passed theory test and 5 hours exam to create full React (front-end, back-end with MySQL database) application. Got a dilpoma for Junior Developer.',
+      diploma: diploma,
     },
     {
       title: "Master's degree, Textile Engineering",

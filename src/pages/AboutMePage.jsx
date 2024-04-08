@@ -105,6 +105,13 @@ export default function AboutMePage() {
             ) : (
               ''
             )}
+            {ed.diploma ? (
+              <p className="flex flex-row gap-2 items-center">
+                You can rewiev my diploma here <img className="diploma-QR" src={ed.diploma} />
+              </p>
+            ) : (
+              ''
+            )}
           </div>
         ))}
 
