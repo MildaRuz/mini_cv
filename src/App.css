@@ -48,5 +48,6 @@ img {
   .first-section,
   .second-section {
     width: 425px;
+    padding-left: 18px;
   }
 }
