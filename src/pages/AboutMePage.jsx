@@ -17,7 +17,9 @@ export default function AboutMePage() {
           <div className="mx-28">
             <div>
               <h2 className="text-xl mt-16 my-4 uppercase underline underline-offset-4">contacts</h2>
-              <div>{USER_DATA.contacts.email}</div>
+              <a href="mailto:milda.marcinkute@gmail.com" target="_blank">
+                {USER_DATA.contacts.email}
+              </a>
 
               <a
                 href={USER_DATA.contacts.linkedIn}

@@ -15,7 +15,7 @@ export const USER_DATA = {
   skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Tailwind'],
   basics: ['MySQL', 'Bootstrap', 'Jira'],
   languages: ['Lithuanian - native', 'English'],
-  interests: ['time with family', 'walking', 'picking mushrooms', 'reading', 'jewellery making', 'fishing'],
+  interests: ['time with family', 'picking mushrooms', 'walking', 'reading', 'jewellery making', 'fishing'],
   icons: [mp1, mp1, mp1, jm1, mp1],
   education: [
     {
