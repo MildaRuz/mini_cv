@@ -36,7 +36,7 @@ export const USER_DATA = {
       company: 'Kaunas University of Technology',
       year: '2009 - 2011',
       description:
-        'Team work, experience in organizing events, textiles. Work on two projects, and have a public presentation.',
+        'Team work, experience in organizing events, textiles. Work on two projects, and have a public presentations.',
       activitiesAndSoc: 'Students Union, Erasmus program (studies in ENSAIT, France).',
     },
     {
@@ -60,7 +60,7 @@ export const USER_DATA = {
       company: 'AB Audimas',
       year: 'Dec 2011 - Feb 2014',
       description:
-        'Supervision in digital printing, heat transfers, quality control in production. Preparation and organization of work. Management of a team of 4-10 people.',
+        'Supervision in digital printing, heat transfers, quality control in production. Preparation and organization of work in production. Management of a team of 4-10 people.',
     },
   ],
 };

@@ -44,7 +44,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0;
+    margin: 0px;
   }
 
   .first-section,
@@ -55,11 +55,13 @@ img {
 
   .first-section {
     margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+    padding-bottom: 30px;
   }
 
   .second-section {
     padding: 0;
-    padding-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
