@@ -12,41 +12,44 @@ export const USER_DATA = {
     gitHub: 'https://github.com/MildaRuz',
   },
   skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Tailwind'],
-  basics: ['MySQL', 'Bootstrap', 'Jira'],
+  basics: ['MySQL', 'Bootstrap', 'Jira', 'Manual testing'],
   languages: ['Lithuanian - native', 'English'],
   interests: ['time with family', 'picking mushrooms', 'walking', 'reading', 'jewellery making', 'fishing'],
-  education: [
-    {
-      title: 'Quality Assurance student',
-      company: 'Baltic Institute of Technology',
-      year: 'Mar 2024 - Jun 2024',
-      description:
-        'Now I am studying software testing. I will learn manual and automatic testing. I am familiar with Jira enviroment, have knowledge of testing types already.',
-    },
-    {
-      title: 'Junior FrontEnd Developer',
-      company: 'Baltic Institute of Technology',
-      year: 'Sep 2023 - Feb 2024',
-      description:
-        'Almost 6 months intensive self-sufficient learning and working in small teams. Passed theory test and 5 hours exam to create full React (front-end, back-end with MySQL database) application. Got a dilpoma for Junior Developer.',
-      diploma: diploma,
-    },
-    {
-      title: "Master's degree, Textile Engineering",
-      company: 'Kaunas University of Technology',
-      year: '2009 - 2011',
-      description:
-        'Team work, experience in organizing events, textiles. Work on two projects, and have a public presentations.',
-      activitiesAndSoc: 'Students Union, Erasmus program (studies in ENSAIT, France).',
-    },
-    {
-      title: "Bachelor's degree, Textile Engineering",
-      company: 'Kaunas University of Technology',
-      year: '2005 - 2009',
-      description: 'Textiles, team work, experience in organizing events.',
-      activitiesAndSoc: 'Students Union.',
-    },
-  ],
+  education: {
+    title: 'education',
+    items: [
+      {
+        title: 'Quality Assurance student',
+        company: 'Baltic Institute of Technology',
+        year: 'Mar 2024 - Jun 2024',
+        description:
+          'Now I am studying software testing. I will learn manual and automatic testing. I am familiar with Jira enviroment, have knowledge of testing types already.',
+      },
+      {
+        title: 'Junior FrontEnd Developer',
+        company: 'Baltic Institute of Technology',
+        year: 'Sep 2023 - Feb 2024',
+        description:
+          'Almost 6 months intensive self-sufficient learning and working in small teams. Passed theory test and 5 hours exam to create full React (front-end, back-end with MySQL database) application. Got a dilpoma for Junior Developer.',
+        diploma: diploma,
+      },
+      {
+        title: "Master's degree, Textile Engineering",
+        company: 'Kaunas University of Technology',
+        year: '2009 - 2011',
+        description:
+          'Team work, experience in organizing events, textiles. Work on two projects, and have a public presentations.',
+        activitiesAndSoc: 'Students Union, Erasmus program (studies in ENSAIT, France).',
+      },
+      {
+        title: "Bachelor's degree, Textile Engineering",
+        company: 'Kaunas University of Technology',
+        year: '2005 - 2009',
+        description: 'Textiles, team work, experience in organizing events.',
+        activitiesAndSoc: 'Students Union.',
+      },
+    ],
+  },
   workingExperience: [
     {
       title: 'Technologist, in Printing Department',
