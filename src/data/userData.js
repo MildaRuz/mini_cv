@@ -12,7 +12,7 @@ export const USER_DATA = {
     gitHub: 'https://github.com/MildaRuz',
   },
   skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Tailwind'],
-  basics: ['MySQL', 'Bootstrap', 'Jira', 'Manual testing'],
+  basics: ['MySQL', 'Bootstrap', 'Jira', 'Manual testing', 'Gherkin syntax'],
   languages: ['Lithuanian - native', 'English'],
   interests: ['time with family', 'picking mushrooms', 'walking', 'reading', 'jewellery making', 'fishing'],
   education: {
@@ -23,7 +23,7 @@ export const USER_DATA = {
         company: 'Baltic Institute of Technology',
         year: 'Mar 2024 - Jun 2024',
         description:
-          'Now I am studying software testing. I will learn manual and automatic testing. I am familiar with Jira enviroment, have knowledge of testing types already.',
+          'Now I am studying software testing. I will learn manual and automatic testing. I am familiar with Jira enviroment, have knowledge of testing types already. I have some experience in whriting test cases and Gherkin syntax.',
       },
       {
         title: 'Junior FrontEnd Developer',
