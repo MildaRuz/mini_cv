@@ -5,19 +5,21 @@ import { USER_DATA } from '../data/userData';
 export default function AboutMePage() {
   return (
     <div className="container-w flex flex-row justify-content-center container-mob shadow-lg shadow-stone-600/60">
-      <div className="first-section py-20">
+      <div className="first-section py-20 print:py-10">
         <div>
-          <img src={USER_DATA.img} className="mx-auto" />
-          <h1 className="text-2xl mb-1 mt-8 uppercase text-center tracking-wide">
+          <img src={USER_DATA.img} className="mx-auto print:w-32 print:h-32" />
+          <h1 className="text-2xl print:text-xl mb-1 mt-8 print:mt-4 uppercase text-center tracking-wide">
             {USER_DATA.firstName} {USER_DATA.lastName}
           </h1>
           <div className="mb-8 text-center">
             <em>{USER_DATA.jobTitle}</em>
           </div>
-          <div className="xl:mx-28">
+          <div className="xl:mx-28 print:mx-6">
             <div>
-              <h2 className="text-xl mt-14 my-4 uppercase underline underline-offset-4">contacts</h2>
-              <div className="">
+              <h2 className="text-xl mt-14 print:mt-6 print:text-base my-4 print:my-2 uppercase underline underline-offset-4">
+                contacts
+              </h2>
+              <div className="print:text-xs">
                 <a href="mailto:milda.marcinkute@gmail.com" target="_blank">
                   {USER_DATA.contacts.email}
                 </a>
@@ -59,28 +61,35 @@ export default function AboutMePage() {
                 </div>
               </div>
             </div>
-            <h2 className="text-xl mt-14 uppercase underline underline-offset-4">skills</h2>
+            <h2 className="text-xl mt-14 print:mt-4 print:text-base uppercase underline underline-offset-4">skills</h2>
             {USER_DATA.skills.map((skill) => (
-              <div className="my-4" key={USER_DATA.skills.index}>
+              <div className="my-4 print:my-2 print:text-xs" key={USER_DATA.skills.index}>
                 <div>{skill}</div>
               </div>
             ))}
-            <h2 className="text-xl mt-14 uppercase underline underline-offset-4"> some Basics of</h2>
+            <h2 className="text-xl mt-14 print:mt-4 print:text-base uppercase underline underline-offset-4">
+              {' '}
+              some Basics of
+            </h2>
             {USER_DATA.basics.map((skill) => (
-              <div className="my-4" key={USER_DATA.basics.index}>
+              <div className="my-4 print:my-2 print:text-xs" key={USER_DATA.basics.index}>
                 <div>{skill}</div>
               </div>
             ))}
 
-            <h2 className="text-xl mt-14 my-4 uppercase underline underline-offset-4">languages</h2>
+            <h2 className="text-xl mt-14 print:mt-4 print:text-base my-4 uppercase underline underline-offset-4">
+              languages
+            </h2>
             {USER_DATA.languages.map((lang) => (
-              <div className="my-4" key={USER_DATA.languages.index}>
+              <div className="my-4 print:my-2 print:text-xs" key={USER_DATA.languages.index}>
                 <div>{lang}</div>
               </div>
             ))}
-            <h2 className="text-xl mt-14 uppercase underline underline-offset-4">interests</h2>
+            <h2 className="text-xl mt-14 print:mt-4 print:text-base uppercase underline underline-offset-4">
+              interests
+            </h2>
             {USER_DATA.interests.map((hobbies) => (
-              <div className="my-4" key={USER_DATA.interests.index}>
+              <div className="my-4 print:my-2 print:text-xs" key={USER_DATA.interests.index}>
                 <div>{hobbies}</div>
               </div>
             ))}
@@ -88,32 +97,32 @@ export default function AboutMePage() {
         </div>
       </div>
       <div className="second-section py-16 px-28">
-        <h2 className="text-xl mb-center mt-16 uppercase font-weight-500 underline underline-offset-4 ">
+        <h2 className="text-xl print:text-base mb-center mt-16 print:mt-8 uppercase font-weight-500 underline underline-offset-4 print:mt-6">
           {USER_DATA.education.title}
         </h2>
         {USER_DATA.education.items.map((ed, index) => (
           <div key={index}>
-            <div className="text-lg uppercase mt-10 font-weight-600">{ed.title}</div>
-            <div className="text-base mt-2">
+            <div className="text-lg print:text-sm uppercase mt-10 print:mt-4 font-weight-600">{ed.title}</div>
+            <div className="text-base mt-2 print:mt-1 print:text-xs">
               <em>
                 {ed.company} | <span className="normal-case">{ed.year}</span>{' '}
               </em>
             </div>
-            <div className="mt-6 leading-7">{ed.description}</div>
+            <div className="mt-6 print:mt-2 leading-7 print:text-xs/6">{ed.description}</div>
             {ed.activitiesAndSoc ? (
-              <div className="mt-2">
+              <div className="mt-2 print:text-xs/6">
                 <em>Activities and societies:</em> {ed.activitiesAndSoc}
               </div>
             ) : (
               ''
             )}
             {ed.diploma ? (
-              <p className="flex flex-row gap-2 items-center">
+              <p className="flex  gap-2 items-center print:text-xs">
                 You can review my diploma{' '}
                 <a href="https://www.dakpr.smm.lt/aikos2-dakpr/downloadDocument?oid=b0f144e0dd2e11eeb8e5dd9efe063b4b">
                   <strong>here </strong>
                 </a>{' '}
-                <span className="mobile-none">or scan QR </span>
+                <span className="mobile-none print:hidden">or scan QR</span>
                 <img className="diploma-QR mobile-none" src={ed.diploma} />
               </p>
             ) : (
@@ -122,19 +131,19 @@ export default function AboutMePage() {
           </div>
         ))}
 
-        <h2 className="text-xl mt-16 mb-center uppercase font-weight-500 underline underline-offset-4">
+        <h2 className="text-xl print:text-base mt-16 print:mt-6 mb-center uppercase font-weight-500 underline underline-offset-4">
           working experience
         </h2>
         {USER_DATA.workingExperience.map((workEx) => (
           <div key={USER_DATA.workingExperience.index}>
-            <div className="text-lg uppercase mt-10 font-weight-600">{workEx.title}</div>
-            <div className="text-base mt-2">
+            <div className="text-lg print:text-sm uppercase mt-10 print:mt-6 font-weight-600">{workEx.title}</div>
+            <div className="text-base print:text-xs mt-2 print:mt-1">
               <em>
                 {workEx.company} | <span className="normal-case">{workEx.year}</span>
               </em>
             </div>
 
-            <div className="mt-6 leading-7">{workEx.description}</div>
+            <div className="mt-6 leading-7 print:text-xs/6 print:mt-2">{workEx.description}</div>
           </div>
         ))}
       </div>

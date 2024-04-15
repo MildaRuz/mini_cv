@@ -83,3 +83,22 @@ img {
     display: none;
   }
 }
+
+@media only print {
+  .container-w {
+    margin: 0;
+  }
+
+  .first-section {
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .second-section {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+  }
+}
