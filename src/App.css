@@ -15,20 +15,29 @@ body {
 
 .first-section {
   width: 45%;
-  color: darkgrey;
-  background-color: rgb(11, 11, 11);
+  color: #c5c6c3;
+  background-color: rgb(29, 29, 29);
+  border-right: 1px solid rgb(29, 29, 29);
 }
 
 .second-section {
-  width: 65%;
-  background-color: darkgrey;
+  background-color: #c5c6c3;
+  color: rgb(29, 29, 29);
 }
 
-img {
-  width: 200px;
-  height: 200px;
+.profile-img {
+  margin: auto;
   border-radius: 100%;
+  overflow: hidden;
+  transform: rotate(-18deg);
 }
+
+.profile-img img {
+  object-fit: cover;
+  height: 110%;
+  object-position: 75% 60%;
+}
+
 .diploma-QR {
   width: 36px;
   height: 36px;
@@ -51,7 +60,6 @@ img {
   .first-section,
   .second-section {
     width: 425px;
-    /* text-align: justify; */
   }
 
   .first-section {
@@ -97,8 +105,13 @@ img {
   .second-section {
     margin: 0 auto;
     padding-top: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 38px;
+    padding-right: 38px;
     text-align: justify;
+  }
+
+  .print-icons {
+    width: 14px;
+    height: 14px;
   }
 }

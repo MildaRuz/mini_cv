@@ -1,5 +1,5 @@
 import diploma from '../assets/diploma.png';
-import profileImg from '../assets/prof.jpg';
+import profileImg from '../assets/profile.jpg';
 
 export const USER_DATA = {
   img: profileImg,
