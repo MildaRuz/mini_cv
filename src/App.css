@@ -92,6 +92,36 @@ body {
   }
 }
 
+@media only screen and (min-width: 427px) and (max-width: 1024px) {
+  .container-w {
+    margin: 0;
+  }
+
+  .first-section {
+    width: 65%;
+  }
+
+  .first-section h1 {
+    font-size: 22px;
+  }
+
+  .first-section,
+  .second-section {
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .second-section {
+    padding-top: 10px;
+  }
+
+  .profile-img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
 @media only print {
   .container-w {
     margin: 0;
