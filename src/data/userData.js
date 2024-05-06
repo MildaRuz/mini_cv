@@ -11,7 +11,7 @@ export const USER_DATA = {
     linkedIn: 'https://www.linkedin.com/in/milda-ruzgienė',
     gitHub: 'https://github.com/MildaRuz',
   },
-  skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Tailwind'],
+  skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Tailwind', 'Postman'],
   basics: ['MySQL', 'Bootstrap', 'Jira', 'Manual testing', 'Gherkin syntax'],
   languages: ['Lithuanian - native', 'English'],
   interests: ['time with family', 'picking mushrooms', 'walking', 'fishing'],
