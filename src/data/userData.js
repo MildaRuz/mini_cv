@@ -12,7 +12,7 @@ export const USER_DATA = {
     gitHub: 'https://github.com/MildaRuz',
   },
   skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Tailwind', 'Postman'],
-  basics: ['MySQL', 'Bootstrap', 'Jira', 'Manual testing', 'Gherkin syntax'],
+  basics: ['MySQL', 'Bootstrap', 'Jira', 'Manual testing', 'Gherkin syntax', 'JMeter'],
   languages: ['Lithuanian - native', 'English'],
   interests: ['time with family', 'picking mushrooms', 'walking', 'fishing'],
   education: {
