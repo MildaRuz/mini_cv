@@ -22,8 +22,7 @@ export const USER_DATA = {
         title: 'Quality Assurance student',
         company: 'Baltic Institute of Technology',
         year: 'Mar 2024 - Jun 2024',
-        description:
-          'Now I am studying software testing. I will learn manual and automatic testing. I am familiar with Jira enviroment, have knowledge of testing types already. I have some experience in whriting test cases and Gherkin syntax.',
+        description: `Now I am studying software testing. I am familiar with Jira enviroment, have knowledge of testing types already. I have some experience in whriting test cases, Gherkin syntax, REST API's testing, Postman.`,
       },
       {
         title: 'Junior FrontEnd Developer',
