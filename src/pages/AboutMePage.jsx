@@ -65,7 +65,7 @@ export default function AboutMePage() {
                 </div>
               </div>
             </div>
-            <h2 className="text-xl mt-14 my-4 print:mt-5 print:text-base uppercase underline underline-offset-4">
+            <h2 className="text-xl mt-12 my-4 print:mt-5 print:text-base uppercase underline underline-offset-4">
               skills
             </h2>
             {USER_DATA.skills.map((skill) => (
@@ -73,7 +73,7 @@ export default function AboutMePage() {
                 <div>{skill}</div>
               </div>
             ))}
-            <h2 className="text-xl mt-14 print:mt-5 my-4 print:text-base uppercase underline underline-offset-4">
+            <h2 className="text-xl mt-12 print:mt-5 my-4 print:text-base uppercase underline underline-offset-4">
               {' '}
               some Basics of
             </h2>
@@ -83,7 +83,7 @@ export default function AboutMePage() {
               </div>
             ))}
 
-            <h2 className="text-xl mt-14 print:mt-5 print:text-base my-4 uppercase underline underline-offset-4">
+            <h2 className="text-xl mt-12 print:mt-5 print:text-base my-4 uppercase underline underline-offset-4">
               languages
             </h2>
             {USER_DATA.languages.map((lang) => (
@@ -91,7 +91,7 @@ export default function AboutMePage() {
                 <div>{lang}</div>
               </div>
             ))}
-            <h2 className="text-xl mt-14 print:mt-5 my-4 print:text-base uppercase underline underline-offset-4">
+            <h2 className="text-xl mt-12 print:mt-5 my-4 print:text-base uppercase underline underline-offset-4">
               interests
             </h2>
             {USER_DATA.interests.map((hobbies) => (
