@@ -11,8 +11,8 @@ export const USER_DATA = {
     linkedIn: 'https://www.linkedin.com/in/milda-ruzgienė',
     gitHub: 'https://github.com/MildaRuz',
   },
-  skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Tailwind', 'Postman'],
-  basics: ['MySQL', 'Bootstrap', 'Jira', 'Manual testing', 'Gherkin syntax', 'JMeter'],
+  skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Tailwind', 'Manual testing', 'Postman', 'Cypress'],
+  basics: ['MySQL', 'Bootstrap', 'Jira', 'Gherkin syntax', 'JMeter', 'CI/CD in GitHub actions'],
   languages: ['Lithuanian - native', 'English'],
   interests: ['time with family', 'picking mushrooms', 'walking', 'fishing'],
   education: {
@@ -22,7 +22,8 @@ export const USER_DATA = {
         title: 'Quality Assurance student',
         company: 'Baltic Institute of Technology',
         year: 'Mar 2024 - Jun 2024',
-        description: `Now I am studying software testing. I am familiar with Jira enviroment, have knowledge of testing types already. I have some experience in writing test cases, Gherkin syntax, REST API's testing, Postman.`,
+        description:
+          'I have just completed a Quality Assurance course. I am familiar with the Jira environment and have knowledge of various testing types. I have experience in writing test cases, using Gherkin syntax, performing REST API automated testing with Postman, conducting automated testing with Cypress, and working with CI/CD using GitHub Actions.',
       },
       {
         title: 'Junior FrontEnd Developer',
