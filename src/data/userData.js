@@ -23,7 +23,7 @@ export const USER_DATA = {
     'Postman',
     'Cypress',
   ],
-  basics: ['MySQL', 'Bootstrap', 'Jira', 'Gherkin syntax', 'JMeter', 'CI/CD in GitHub actions'],
+  basics: ['MySQL', 'Bootstrap', 'Jira', 'Gherkin syntax', 'JMeter', 'PostgreSQL', 'CI/CD in GitHub actions'],
   languages: ['Lithuanian - native', 'English'],
   interests: ['time with family', 'picking mushrooms', 'walking', 'fishing'],
   education: {
