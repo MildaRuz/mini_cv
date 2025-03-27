@@ -39,6 +39,12 @@ export const USER_DATA = {
     title: 'education',
     items: [
       {
+        title: 'Automated Testing with JavaScript',
+        company: 'EPAM systems',
+        year: 'Jan 2025 - Mar 2025',
+        description: 'I have completed a self-learning course. Completed WebDriverIO final task project.',
+      },
+      {
         title: 'Quality Assurance student',
         company: 'Baltic Institute of Technology',
         year: 'Mar 2024 - Jun 2024',
